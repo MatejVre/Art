@@ -1,0 +1,137 @@
+#thumbnail {
+    width: 15em;
+    height: 12em;
+    object-fit: contain;
+    margin: 0;
+}
+
+div.image{
+    display: inline;
+    background-color: white;
+    border-style: none;
+    border-width: 0.4em;
+    border-radius: 0.4em;
+    width: 20em;
+    height: 20em;
+    padding: 1em;
+    margin: 5em;
+    float: left;
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+div.image:hover {
+    background-color: gainsboro;
+    transition: 0.4s;
+}
+
+p.title {
+    font-size: 2em;
+    object-fit: contain;
+    margin: 0.2em;
+}
+
+#header {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: black;
+    padding: 0.6em;
+    color: white;
+    width: 100%;
+    transition:0.4s;
+    margin-bottom: 2em;
+
+}
+
+.submit {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border-style: solid;
+    background-color: white;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0.2em;
+}
+
+h1{
+    margin-bottom: 0;
+
+}
+
+div.description {
+    text-align: center;
+
+}
+
+#form{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+input{
+    height: 1.75em;
+    margin: 0.2em;
+    border-width: 0.1em;
+    border-radius: 0.4em;
+}
+
+input:hover{
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+
+img {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    width: 60em;
+    height: 40em;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2.6em;
+}
+
+a {
+    color:black;
+    border-style: solid;
+    margin: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.5em;
+    border-radius: 0.2em;
+    border-width: 0.1em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    border-color: black;
+}
+
+#center{
+    text-align: center;
+}
+
+table {
+    border-style: solid;
+    margin: 2em;
+}
+
+
